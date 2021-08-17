@@ -5,8 +5,8 @@ import PageContent from "./pageContent";
 import ThemeProvider from "./contexts/ThemeContext";
 import LanguageProvider from "./contexts/LanguageContexts";
 
-class App extends Component {
-  render() {
+function App() {
+  
     return (
       
       <ThemeProvider>
@@ -18,7 +18,6 @@ class App extends Component {
         </LanguageProvider>
       </ThemeProvider>
     );
-  }
 }
 
 export default App;
